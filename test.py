@@ -13,7 +13,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(example.multiply(2, 5), 10)
 
     def test_div_1(self):
-        self.assertEqual(example.divide(5, 2), 2)
+        self.assertEqual(example.divide(4, 2), 2)
 
 
 if __name__ == '__main__':
